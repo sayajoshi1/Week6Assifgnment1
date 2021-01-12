@@ -16,21 +16,26 @@
     />
 
     <EditText
+        android:id="@+id/etusername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:hint="Username"/>
 
     <EditText
+        android:id="@+id/etpassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:hint="Password"/>
 
     <Button
+        android:id="@+id/btnlogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LOGIN"
+        android:background="@drawable/curveborder"
         android:layout_margin="30dp"/>
+
 
 </LinearLayout>
