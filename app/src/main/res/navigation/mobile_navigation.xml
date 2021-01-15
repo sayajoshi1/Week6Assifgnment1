@@ -14,7 +14,7 @@
     <fragment
         android:id="@+id/navigation_addstudent"
         android:name="com.saya.week6assignment1.fragments.AddStudentFragment"
-        android:label="@string/title_dashboard"
+        android:label="Addstudent"
         tools:layout="@layout/fragment_add_student" />
 
     <fragment
